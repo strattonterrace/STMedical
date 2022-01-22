@@ -1,16 +1,13 @@
 import React from 'react'
-import './Home.css'
-
-
-const Home = () => {
+const Testimonial = () => {
   return (
-    <div className="Home">
+  <div className="container">
     
     <h1 className="text-center" style={{paddingTop: "30%"}}>
-      Home
+      Testimonial
     </h1>
     
   </div>
   )
 }
-export default Home;
+export default Testimonial;

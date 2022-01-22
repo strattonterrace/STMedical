@@ -1,31 +1,46 @@
-import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Footer from './Components/Header/Header';
-import Header from './Components/Footer/Footer';
-import Home from './Pages/Home/Home'
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
+// import Footer from './Components/Header/Header';
+// import Header from './Components/Footer/Footer';
+import Navbar from './Components/Navbar/Navbar';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import Home from './pages/Home/Home';
+import Services from './pages/Service/Services';
+import Testimonial from './pages/Testimonial/Testimonial';
 
 
-
-function App() {
+const App = () => {
   return (
-    <div className='App'>
-      <Router>
+   <Router>
+    <Navbar/>
+    <main>
       <Switch>
-      <Header />
-      <Route path='/' exact component={Home} />
-
-
-
-      
+        <Route path="/" exact>
+          <Home/>
+        </Route>
+        <Route path="/about" exact>
+          <About/>
+        </Route>
+        <Route path="/service" exact>
+          <Services/>
+        </Route>
+        <Route path="/testimonial" exact>
+          <Testimonial/>
+        </Route>
+        <Route path="/contact" exact>
+          <Contact/>
+        </Route>
+        <Redirect to="/" />
       </Switch>
-
-
-      <Footer />
-      </Router>
-        </div>
-  )
-
-
+    </main>
+   </Router>
+  );
 }
 
 export default App;
