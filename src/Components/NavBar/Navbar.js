@@ -48,7 +48,7 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg navbar-mainbg">
     
       <NavLink className="navbar-brand navbar-logo" to="/" exact>
-        ST Medical
+       <b> ST |</b> Medical
       </NavLink>
     
     

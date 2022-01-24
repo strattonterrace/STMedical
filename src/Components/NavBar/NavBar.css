@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* background: #fff;  */
 }
 * {
   margin: 0;
@@ -12,13 +11,15 @@ i {
   margin-right: 10px;
 }
 .navbar-logo {
+  margin-left:200px;
   padding: 15px;
+  font-size:32px;
   color: #fff;
 
   text-decoration: none;
 }
 .navbar-logo:hover{
-color: black;
+color: #9f3310cf;
 }
 
 .navbar-logo > img{
