@@ -5,8 +5,8 @@ import {
   Redirect,
   Switch
 } from 'react-router-dom';
-// import Footer from './Components/Header/Header';
-// import Header from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer.js';
+import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
@@ -17,6 +17,7 @@ import Testimonial from './pages/Testimonial/Testimonial';
 
 const App = () => {
   return (
+        <>
    <Router>
     <Navbar/>
     <main>
@@ -39,8 +40,12 @@ const App = () => {
         <Redirect to="/" />
       </Switch>
     </main>
+          <Footer />
    </Router>
-  );
+
+    </>
+ 
+  )
 }
 
 export default App;
