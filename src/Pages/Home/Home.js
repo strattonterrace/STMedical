@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.css'
 import plastick from '../../Assets/Images/Plastick.png'
+import Slider from '../../Components/Slider/Slider'
+
 
 
 
@@ -14,7 +16,7 @@ const Home = () => {
           <a href = "#more">
       <img id = "Home__img" src={plastick} alt="Home art"/> </a>
     </div>
-
+<Slider />
 
 
 
