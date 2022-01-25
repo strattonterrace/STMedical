@@ -5,7 +5,6 @@ import {
   Redirect,
   Switch
 } from 'react-router-dom';
-// import Footer from './Components/Footer/Footer.js';
 import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar';
 import About from './pages/About/About';

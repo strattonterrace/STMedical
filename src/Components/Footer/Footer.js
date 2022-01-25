@@ -31,7 +31,7 @@ const Footer = () => (
                 <a href="#"> <i class="fab fa-facebook-f icon"></i></a>
                 <a href="#"><i class="fab fa-twitter icon"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+                <a href="#"><i class="fab fa-google icon"></i></a>
                 </div>
           </div>
           <p className="copyright">Stratton Terrace Marketing © 2022</p>
