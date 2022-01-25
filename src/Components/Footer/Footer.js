@@ -24,12 +24,17 @@ const Footer = () => (
                   </ul>
               </div>
               <div className="col-md-6 item text">
-                  <h3>Company Name</h3>
+                  <h3>ST Medical</h3>
                   <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
               </div>
-              <div className="col item social"><a href="#"><i className="icon ion-social-facebook"></i></a><a href="#"><i className="icon ion-social-twitter"></i></a><a href="#"><i className="icon ion-social-snapchat"></i></a><a href="#"><i className="icon ion-social-instagram"></i></a></div>
+              <div className="col item social">
+                <a href="#"> <i class="fab fa-facebook-f icon"></i></a>
+                <a href="#"><i class="fab fa-twitter icon"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+                </div>
           </div>
-          <p className="copyright">Company Name © 2018</p>
+          <p className="copyright">Stratton Terrace Marketing © 2022</p>
       </div>
   </footer>
 </div>
