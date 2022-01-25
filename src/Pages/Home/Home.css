@@ -1,0 +1,58 @@
+*{
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAFAFA;
+    box-sizing:border-box !important;
+}
+  .Home{
+  background-color: #Fafafa;
+  scroll-behavior: smooth;
+  }
+
+.Home__Banner{
+    min-height: 60vh;
+    background-image: url('../../Assets//Background/Home_BG.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#Home__img{
+    display: inline-block;
+    position: relative;
+    max-width: 40%;
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: 1s ease-in-out;
+    }
+    
+    
+    #Home__img:hover{
+      -webkit-filter: grayscale(30%) blur(0.5px);
+        filter: grayscale(30%) blur(0.5px);
+    }
+    
+    .Home__h1{
+      display: inline-block;
+      padding: 12%;
+      font-size: 50px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+    }
+    
+
+    .emphasis-1{
+        font-size: 20px;
+        color: #fff;
+        line-height: 2em;
+        letter-spacing: .1em;
+        margin-bottom: 50px;
+    
+    }
+    
