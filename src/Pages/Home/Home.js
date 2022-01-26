@@ -4,8 +4,6 @@ import plastick from '../../Assets/Images/Plastick.png'
 import Slider from '../../Components/Slider/Slider'
 
 
-
-
 const Home = () => {
   return (
     <div className="Home">

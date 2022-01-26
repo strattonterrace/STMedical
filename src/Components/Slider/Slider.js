@@ -1,12 +1,11 @@
 import React from "react";
-// import MyComponent from "../components/MyComponent";
 import Marquee from "react-fast-marquee";
 import './Slider.css'
 
 
 function Slider() {
   return (
-<Marquee>
+<Marquee speed="100" pauseOnHover={false}>
     <div className="Slider">
     <ul className="Slider-content">
       <li><i className="fab fa-github"></i></li>
