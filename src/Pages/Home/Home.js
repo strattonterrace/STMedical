@@ -19,22 +19,24 @@ const Home = () => {
       <img id = "Home__img" src={plastick} alt="Home art"/> </a>
     </div>
 <Slider />
-<Row className="Home_row1" >
+<Row className="Home__row1" >
 
   <h1></h1>
             <Col>
-          <h4 className="Home_h4">
+          <h4 className="Home__h4">
             <br/>
-          What is digital advertising?
+            Grow Your Practice Now!
+
           </h4>
-          <p className="Home_p">
-       
+          <p className="Home__p">
+          With a focus on continuous innovation, GrowthMed offers the healthcare industry's primier all-in-one growth platform specifically designed for healthcare providers.
+
           <br></br>
           <br></br>
           Call us today and take advantage of our team's knowledge! 
           </p>
         </Col>
-        <Col id="Home_R1__col1" xl="4">
+        <Col id="Home__R1__col1" xl="4">
          <img id = "Home_img__body" src={orm} alt="Digital Advertising"/>
           </Col>
         </Row>
