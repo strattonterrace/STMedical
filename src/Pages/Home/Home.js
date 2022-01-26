@@ -35,6 +35,8 @@ const Home = () => {
           <br></br>
           Call us today and take advantage of our team's knowledge! 
           </p>
+          <button id='Home__row1__button' href='/'>
+              Read More</button>
         </Col>
         <Col id="Home__R1__col1" xl="4">
          <img id = "Home_img__body" src={orm} alt="Digital Advertising"/>
