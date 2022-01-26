@@ -23,13 +23,13 @@ const Home = () => {
 
   <h1></h1>
             <Col>
-          <h4 className="Home__h4">
+          <h4 id = "What-is-Ads" className="Home__h4">
             <br/>
             Grow Your Practice Now!
 
           </h4>
           <p className="Home__p">
-          With a focus on continuous innovation, GrowthMed offers the healthcare industry's primier all-in-one growth platform specifically designed for healthcare providers.
+          With a focus on continuous innovation, ST Medical offers the healthcare industry's premier all-in-one growth platform specifically designed for healthcare providers.
 
           <br></br>
           <br></br>
