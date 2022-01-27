@@ -1,5 +1,7 @@
 .GetInTouch{
     background-image: url('../../Assets//Background/bg.jpeg');
+    padding-bottom: 5%;
+    padding-top: 2%;
 }
 
 
@@ -14,6 +16,7 @@
 
     .GetInTouch__p{
     font-size: 1.3em;
+    padding-bottom: 3%;
     text-align: center;
     color: #fff;
     margin: 100px 400px  0px 400px;
@@ -21,3 +24,159 @@
     font-weight: 400;
     letter-spacing: .1em;
     }
+
+    .contact{
+        background-color: white;
+        background-Position: center;
+        background-Size: cover;
+        background-Repeat: no-repeat;
+    
+    }
+   
+    .contact__form {
+      filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+      display: flex;
+      border-radius: 15px;
+      flex-direction: column;
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fafafa;
+      }
+    
+      .form-control {
+        display: block;
+        width: 80%;
+        align-items: center;
+    }
+     
+      .contact__form > h1 {
+      text-align: center;
+      font-weight: bold;
+      padding: 50px;
+      }
+    
+      .form > input,
+      textarea {
+        padding: 20px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        font-size: 16px;
+        color: black;
+        outline: none;
+      }
+      .contact__P{
+        padding-bottom: 40px;
+       }
+      
+      .contact__form > input:focus,
+      textarea:focus {
+        border: 1px solid black;
+        outline: none;
+      }
+      
+      .contact__form > textarea {
+        height: 150px;
+        max-width: 80%;
+        min-height: 100px;
+      }
+      
+      .contact__form > label {
+        padding: 10px 60px;
+        max-width: 400px; 
+        color: black;
+        font-weight: bold;
+    
+      }
+      
+      .contact__form > button {
+    margin: 60px 250px;
+    background-color: #FF7F02;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+      }
+      
+      .contact__form > button:hover {
+    color: #FF7F02;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+      }
+      .Contact__name{
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 10px;
+      }
+        
+      @media (max-width:500px){
+    
+        .contact__form {
+          margin-top: 60px;
+          justify-content: center;
+          width: 100%;
+          margin-bottom: 80px;
+          padding-bottom: 80px;
+    
+        }
+        .contact__form > h1 {
+          margin-bottom: 10px;
+        }
+        .form > input,
+        textarea {
+          
+          padding: 10px;
+          border-radius: 3px;
+          margin-bottom: 5px;
+          border: 1px solid black;
+          background: #fff;
+          font-size: 18px;
+          color: black;
+          outline: none;
+        }
+    
+        .form-control {
+          display: block;
+          width: 100%;
+          align-items: center;
+      }
+    
+        .contact__form > button {
+          padding: 10px;
+          background-color: rgb(216, 188, 32);
+          font-size: 15px;
+          border-radius: 3px;
+          color: black;
+          margin-top: 5px;
+          border: none;
+          outline: none;
+        }
+        .Contact__name{
+          margin:0px;
+          font-size:20px;
+        }
+        .contact__P{
+         padding-bottom: 40px;
+        }
+        .Contact__name{
+          padding-top: 20px;
+        }
+        
+        .contact__form > textarea {
+          height: 150px;
+          max-width: 100%;
+          min-height: 100px;
+      }
+    
+      .contact__form > button {
+        display: block;
+        width: 100%;
+        padding: 1.125rem 2rem;
+      }
+      }
