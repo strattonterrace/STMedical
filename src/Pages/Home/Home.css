@@ -56,6 +56,7 @@
         margin-bottom: 50px;
     
     }
+
     
     .Home__row{
       margin: 5% 10%;
@@ -148,6 +149,10 @@
 
 
   .Home__row__3{
-      margin: 5% 1% 5% 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 5% 1% 5% 1%;
 
   }

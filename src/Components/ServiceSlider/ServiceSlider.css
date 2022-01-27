@@ -1,0 +1,91 @@
+* {
+    -webkit-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.zero{
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin:0;
+}
+
+.service-slide {
+    height: 350px;
+    cursor: pointer;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+}
+.service-icon-4 {
+    background: url(https://growthmed.com/wp-content/themes/growthmed_newer_com/static/images/icon-4-sprite.png) no-repeat center top;
+}
+
+
+.service-box {
+    height: 340px;
+    width: 400px;
+    border: 2px solid #f2f2f2;
+    padding: 40px;
+    border-radius: 0 60px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -webkit-box-shadow: 0 4px 6px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+    box-shadow: 0 4px 6px 0 rgb(0 0 0 / 20%);
+    margin: 5px 20px 20px 20px;
+}
+
+.service-name {
+    font-weight: 700;
+    font-size: 1.25em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 60px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+}
+
+.service-text {
+    line-height: 1.8em;
+    font-size: 1em;
+    margin-bottom: 35px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+}
+
+a.button {
+    background-color: #FF7F02;
+    padding: 10px 15px!;
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: .1em;
+    border-radius: 5px;
+    width: 200px;
+    padding: 18px 0 15px 0;
+    border: none;
+    clear: both;
+    z-index: 3;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+a.button:hover{
+    color: #FF7F02;
+    background-color: white;
+    border: 1px solid #FF7F02;;
+     font-size: 15px;
+     font-weight: bold;
+     }
+     
