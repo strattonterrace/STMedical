@@ -4,7 +4,7 @@ import './ServiceSlider.css'
 
 function ServiceSlider() {
     return (
-        <Marquee speed="100" pauseOnHover={false}>
+        <Marquee speed="20" pauseOnHover={true}>
             <div className="">
             <ul className="">
               <li><i className="fab fa-github"></i></li>
