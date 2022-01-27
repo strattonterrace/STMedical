@@ -59,48 +59,7 @@ function ServiceSlider() {
                                    </div>
                                    </div>
                                     </div>
-          </div>        
-
-          <div className="ServiceSlider__row">
-      <div className="col-sm-6 zero">
-      <div className="service-slide">
-                                     <div className="service-box">
-                                       <div className="service-icon-1">
-                                         </div>
-                                         <h2 className="service-name">Local SEO
-                                         </h2>
-                                         <div className="service-text">Local Search Engine Optimization (SEO) is essential. We actively pursue strategies to keep you at the top of search results in your area.
-                                         </div> 
-                                         <a href="/" className="ServiceSlider__button">Learn More
-                                         </a>
-                                         </div>
-                                         </div>
-                                         <div className="service-slide">
-                                           <div className="service-box">
-                                             <div className="service-icon-2">
-                                               </div>
-                                               <h2 className="service-name">Lead Management
-                                               </h2>
-                                               <div className="service-text">We offer end-to-end lead management. From generating leads to converting those leads, we fully maximize the benefits of your online presence.
-                                               </div> 
-                                               <a href="/" className="ServiceSlider__button" tabindex="0">Learn More
-                                               </a>
-                                               </div>
-                                               </div>
-                                               <div className="service-slide">
-                                                 <div className="service-box">
-                                                   <div className="service-icon-4">
-                                                     </div>
-                                                     <h2 className="service-name">Conversion Optimization
-                                                     </h2>
-                                                     <div className="service-text">The art of getting the highest percentage of potential patients that visit your website to contact you. There is no one better at that than us.
-                                                     </div> 
-                                                     <a href="/medical-marketing/local-search-engine-optimization/" className="ServiceSlider__button" tabindex="0">Learn More
-                                                     </a>
-                                                     </div>
-                                                     </div>
-      </div>
-          </div>      
+          </div>           
           </Marquee>
           )
         }

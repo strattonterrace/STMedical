@@ -151,8 +151,7 @@
   .Home__row__3{
     display: flex;
     flex-wrap: nowrap;
-    margin-right: -15px;
-    margin-left: -15px;
     margin: 5% 1% 5% 1%;
+    max-width:75%;
 
   }
