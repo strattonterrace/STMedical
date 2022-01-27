@@ -7,6 +7,7 @@ import { InlineWidget } from "react-calendly";
 import plastick from '../../Assets/Images/Plastick.png'
 import orm from '../../Assets/Images/ORM1.png'
 import seo from '../../Assets/Images/Seo.png'
+import GetInTouch from '../../Components/GetInTouch/GetInTouch'
 
 
 
@@ -74,10 +75,9 @@ const Home = () => {
           < ServiceSlider />
           </Col>
           </Row>
-
-
-
+          <GetInTouch />
 </div>
+
   )
 }
 

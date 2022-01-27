@@ -1,0 +1,23 @@
+.GetInTouch{
+    background-image: url('../../Assets//Background/bg.jpeg');
+}
+
+
+#contact-form-title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-family: 'Lato', sans-serif;
+    }
+
+    .GetInTouch__p{
+    font-size: 1.3em;
+    text-align: center;
+    color: #fff;
+    margin: 100px 400px  0px 400px;
+    line-height: 2em;
+    font-weight: 400;
+    letter-spacing: .1em;
+    }
