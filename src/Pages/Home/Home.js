@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import { Row, Col } from 'reactstrap';
 import Slider from '../../Components/Slider/Slider'
+import ServiceSlider from '../../Components/ServiceSlider/ServiceSlider'
 import { InlineWidget } from "react-calendly";
 import plastick from '../../Assets/Images/Plastick.png'
 import orm from '../../Assets/Images/ORM1.png'
@@ -70,10 +71,7 @@ const Home = () => {
         <InlineWidget url="https://calendly.com/strattonterrace/30min" />
           </Col>
             <Col>
-          <>
-          
-          here will be slider
-          </>
+          < ServiceSlider />
           </Col>
           </Row>
 
