@@ -19,10 +19,6 @@
 * {
     -webkit-font-smoothing: antialiased;
 }
-.service-icon-4 {
-    background: url(https://growthmed.com/wp-content/themes/growthmed_newer_com/static/images/icon-4-sprite.png) no-repeat center top;
-}
-
 
 .service-box {
     height: 340px;
@@ -60,9 +56,9 @@
     -ms-transition: all 0.3s ease-out;
 }
 
-a.button {
+a.ServiceSlider__button {
     background-color: #FF7F02;
-    padding: 10px 15px!;
+    padding: 10px 15px !important;
     display: block;
     font-size: 1em;
     text-transform: uppercase;
@@ -81,7 +77,7 @@ a.button {
     text-decoration: none;
 }
 
-a.button:hover{
+a.ServiceSlider__button:hover{
     color: #FF7F02;
     background-color: white;
     border: 1px solid #FF7F02;;

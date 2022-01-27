@@ -4,44 +4,103 @@ import './ServiceSlider.css'
 
 function ServiceSlider() {
     return (
-        <Marquee speed="50" pauseOnHover={true}>
+        <Marquee speed="40" pauseOnHover={true}>
           <div className="ServiceSlider__row">
       <div className="col-sm-6 zero">
-              <div class="service-slide" 
-              onclick="window.location.href='//';" 
-              data-uw-styling-context="true">
-                <div class="service-box" data-uw-styling-context="true">
-                  <div class="service-icon-3" data-uw-styling-context="true">
+              <div className="service-slide">
+                <div className="service-box">
+                  <div className="service-icon-3">
                     </div>
-                    <h2 class="service-name" data-uw-styling-context="true">Mobile Design
+                    <h2 className="service-name">Mobile Design
                     </h2>
-                    <div class="service-text" data-uw-styling-context="true">
+                    <div className="service-text">
                       More than half your traffic is mobile. We design and build custom websites that connect with your future clients on any screen.
                       </div> 
-                      <a href="/" class="button" tabindex="-1" data-uw-styling-context="true">
+                      <a href="/" className="ServiceSlider__button">
                         Learn More
                       </a>
                       </div>
                       </div>
-              <div class="service-slide">
-                <div class="service-box">
-                  <div class="service-icon-1">
+              <div className="service-slide">
+                <div className="service-box">
+                  <div className="service-icon-1">
                     </div>
-                    <h2 class="service-name">In-Depth Content
+                    <h2 className="service-name">In-Depth Content
                     </h2>
-                    <div class="service-text">Google rewards authority. We research your topics and consult with you to write 1,500+ word articles which build your search rank to increase organic leads.
+                    <div className="service-text">Google rewards authority. We research your topics and consult with you to write 1,500+ word articles which build your search rank to increase organic leads.
                     </div>
-                     <a href="/" class="button" tabindex="-1">
+                     <a href="/" className="ServiceSlider__button">
                        Learn More
                        </a>
                        </div>
                        </div>
-
-
-
-
-                       </div>
+                       <div className="service-slide">
+                         <div className="service-box">
+                           <div className="service-icon-4">
+                             </div>
+                             <h2 className="service-name">Pay Per Click
+                             </h2>
+                             <div className="service-text">You want to maximize your advertising dollar. We ensure a lower cost of acquisition and higher conversion rate than any other agency.
+                             </div> 
+                             <a href="/" className="ServiceSlider__button" tabindex="0">Learn More
+                             </a>
+                             </div>
+                             </div>
+                             <div className="service-slide">
+                               <div className="service-box">
+                                 <div className="service-icon-4">
+                                   </div>
+                                   <h2 className="service-name">Pay Per Click
+                                   </h2>
+                                   <div className="service-text">You want to maximize your advertising dollar. We ensure a lower cost of acquisition and higher conversion rate than any other agency.
+                                   </div> 
+                                   <a href="/" className="ServiceSlider__button" >Learn More
+                                   </a>
+                                   </div>
+                                   </div>
+                                    </div>
           </div>        
+
+          <div className="ServiceSlider__row">
+      <div className="col-sm-6 zero">
+      <div className="service-slide">
+                                     <div className="service-box">
+                                       <div className="service-icon-1">
+                                         </div>
+                                         <h2 className="service-name">Local SEO
+                                         </h2>
+                                         <div className="service-text">Local Search Engine Optimization (SEO) is essential. We actively pursue strategies to keep you at the top of search results in your area.
+                                         </div> 
+                                         <a href="/" className="ServiceSlider__button">Learn More
+                                         </a>
+                                         </div>
+                                         </div>
+                                         <div className="service-slide">
+                                           <div className="service-box">
+                                             <div className="service-icon-2">
+                                               </div>
+                                               <h2 className="service-name">Lead Management
+                                               </h2>
+                                               <div className="service-text">We offer end-to-end lead management. From generating leads to converting those leads, we fully maximize the benefits of your online presence.
+                                               </div> 
+                                               <a href="/" className="ServiceSlider__button" tabindex="0">Learn More
+                                               </a>
+                                               </div>
+                                               </div>
+                                               <div className="service-slide">
+                                                 <div className="service-box">
+                                                   <div className="service-icon-4">
+                                                     </div>
+                                                     <h2 className="service-name">Conversion Optimization
+                                                     </h2>
+                                                     <div className="service-text">The art of getting the highest percentage of potential patients that visit your website to contact you. There is no one better at that than us.
+                                                     </div> 
+                                                     <a href="/medical-marketing/local-search-engine-optimization/" className="ServiceSlider__button" tabindex="0">Learn More
+                                                     </a>
+                                                     </div>
+                                                     </div>
+      </div>
+          </div>      
           </Marquee>
           )
         }
