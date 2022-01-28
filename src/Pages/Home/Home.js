@@ -10,7 +10,6 @@ import seo from '../../Assets/Images/Seo.png'
 import GetInTouch from '../../Components/GetInTouch/GetInTouch'
 
 
-
 const Home = () => {
   return (
     <div className="Home">
