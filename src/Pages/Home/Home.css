@@ -13,7 +13,7 @@
 
 .Home__Banner{
     min-height: 60vh;
-    background-image: url('../../Assets//Background/Home_BG.png');
+    background-image: url('../../Assets/Background/Home_BG.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
