@@ -158,17 +158,157 @@
 
   @media (max-width:900px){
 
+    #Home__img{
+      display: inline-block;
+      position: relative;
+      max-width: 100%;
+      -webkit-filter: grayscale(0) blur(0);
+      filter: grayscale(0) blur(0);
+      -webkit-transition: .3s ease-in-out;
+      transition: 1s ease-in-out;
+      }
+
+      .Home__h1{
+        display: inline-block;
+        padding-top: 25px;
+        text-align: center;
+        /* padding-left: 14%; */
+        /* padding-right:3%; */
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        /* font-weight: bold; */
+        letter-spacing: .1em;
+        font-family: 'Lato', sans-serif;
+      }
+
+      .col {
+        width: 100%;
+
+      }
+
+    .emphasis-1{
+      font-size: 20px;
+      color: #fff;
+      line-height: 1em;
+      letter-spacing: .1em;  
+  }
+
+    .Home__h4 {
+      margin: 5px 5px;
+      font-weight: bold;
+      color: #FF7F02;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+  }
+
     .Home__row__3{
       display: flex;
       flex-wrap: wrap;
       margin: 5% 1% 5% 1%;
       max-width:100%;
     }
+
+    .Home__Section__2{
+      background-image: url('../../Assets//Background/Section-2-bg.png');
+    }
+  
+    .Home__h4_Section2{
+      margin: 5px 5px;
+      text-align: center;
+      color: #fafafa;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+    }
+
+
+    .Home__h2{
+      margin-top: 10px;
+      padding: 10px;
+      color: #FF7F02;
+      text-align: center !important;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+    }
+    #Home__row1__button {
+      background-color: #FF7F02;
+      color: white;
+      border-radius: 5px;
+      padding: 10px 30px;
+      font-size: 15px;
+      transition: .5s ease-in-out;
+  }
+
+  .Home__p{
+    margin: 0px 0px;
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: .1em;
+    text-align: center;
+  }
+  
 
   }
 
 
+
+
+
+
   @media (max-width:500px){
+
+
+    #Home__img{
+      display: inline-block;
+      position: relative;
+      max-width: 100%;
+      -webkit-filter: grayscale(0) blur(0);
+      filter: grayscale(0) blur(0);
+      -webkit-transition: .3s ease-in-out;
+      transition: 1s ease-in-out;
+      }
+
+      .Home__h1{
+        display: inline-block;
+        padding-top: 25px;
+        text-align: center;
+        /* padding-left: 14%; */
+        /* padding-right:3%; */
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        /* font-weight: bold; */
+        letter-spacing: .1em;
+        font-family: 'Lato', sans-serif;
+      }
+
+      .col {
+        width: 100%;
+
+      }
+
+    .emphasis-1{
+      font-size: 20px;
+      color: #fff;
+      line-height: 1em;
+      letter-spacing: .1em;  
+  }
+
+    .Home__h4 {
+      margin: 5px 5px;
+      font-weight: bold;
+      color: #FF7F02;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+  }
 
     .Home__row__3{
       display: flex;
@@ -177,9 +317,46 @@
       max-width:100%;
     }
 
+    .Home__Section__2{
+      background-image: url('../../Assets//Background/Section-2-bg.png');
+    }
+  
+    .Home__h4_Section2{
+      margin: 5px 5px;
+      text-align: center;
+      color: #fafafa;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+    }
 
 
+    .Home__h2{
+      margin-top: 10px;
+      padding: 10px;
+      color: #FF7F02;
+      text-align: center !important;
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: .1em;
+      font-family: 'Lato', sans-serif;
+    }
+    #Home__row1__button {
+      background-color: #FF7F02;
+      color: white;
+      border-radius: 5px;
+      padding: 10px 30px;
+      font-size: 15px;
+      transition: .5s ease-in-out;
+  }
 
-
+  .Home__p{
+    margin: 0px 0px;
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: .1em;
+    text-align: center;
+  }
 
   }

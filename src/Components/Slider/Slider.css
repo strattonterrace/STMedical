@@ -66,8 +66,8 @@ body {
 
   :root {
     --Slider-width: 100vw;
-    --Slider-height: 16vh;
-    --Slider-elements-displayed: 3;
+    --Slider-height: 8vh;
+    --Slider-elements-displayed: 4;
   }
   .Slider:before, .Slider:after { width: 5rem; }
 }
