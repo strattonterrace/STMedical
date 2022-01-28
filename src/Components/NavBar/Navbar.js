@@ -35,6 +35,10 @@ const Navbar = () => {
     });
   }
 
+
+  function refreshPage(){
+    window.location.reload();
+}
   useEffect(() => {
     
     animation();
@@ -47,8 +51,8 @@ const Navbar = () => {
   return (
   <nav className="navbar navbar-expand-lg navbar-mainbg">
     
-      <NavLink className="navbar-brand navbar-logo" to="/" exact>
-       <b> ST |</b> Medical
+      <NavLink onClick={refreshPage} className="navbar-brand navbar-logo" to="/" exact >
+       <b > ST |</b> Medical
       </NavLink>
     
     

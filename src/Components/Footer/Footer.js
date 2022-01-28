@@ -28,10 +28,10 @@ const Footer = () => (
                   <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
               </div>
               <div className="col item social">
-                <a href="#"> <i class="fab fa-facebook-f icon"></i></a>
-                <a href="#"><i class="fab fa-twitter icon"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
-                <a href="#"><i class="fab fa-google icon"></i></a>
+                <a href="#"> <i className="fab fa-facebook-f icon"></i></a>
+                <a href="#"><i className="fab fa-twitter icon"></i></a>
+                <a href="#"><i className="fab fa-linkedin-in icon"></i></a>
+                <a href="#"><i className="fab fa-google icon"></i></a>
                 </div>
           </div>
           <p className="copyright">Stratton Terrace Marketing © 2022</p>
