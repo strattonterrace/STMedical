@@ -26,10 +26,10 @@
     }
 
     .contact{
-        background-color: white;
-        background-Position: center;
-        background-Size: cover;
-        background-Repeat: no-repeat;
+    background-color: white;
+    background-Position: center;
+    background-Size: cover;
+    background-Repeat: no-repeat;
     
     }
    
@@ -46,7 +46,7 @@
     
       .form-control {
         display: block;
-        width: 80%;
+        width: 100%;
         align-items: center;
     }
      
@@ -78,12 +78,12 @@
       
       .contact__form > textarea {
         height: 150px;
-        max-width: 80%;
+        width: 100%;
         min-height: 100px;
       }
       
       .contact__form > label {
-        padding: 10px 60px;
+        padding: 10px 40px;
         max-width: 400px; 
         color: black;
         font-weight: bold;
@@ -91,8 +91,13 @@
       }
       
       .contact__form > button {
-    margin: 60px 250px;
+    font-family: 'Lato', sans-serif;
     background-color: #FF7F02;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    align-items: center;
     color: white;
     border-radius: 5px;
     padding: 10px 60px;
@@ -100,7 +105,7 @@
     font-weight: bold;
     -webkit-transition: .3s ease-in-out;
     transition: .5s ease-in-out;
-      }
+    }
       
       .contact__form > button:hover {
     color: #FF7F02;
@@ -108,12 +113,8 @@
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
-      }
-      .Contact__name{
-        text-align: center;
-        margin-top: 30px;
-        padding-bottom: 10px;
-      }
+    }
+   
         
       @media (max-width:500px){
     
@@ -130,7 +131,6 @@
         }
         .form > input,
         textarea {
-          
           padding: 10px;
           border-radius: 3px;
           margin-bottom: 5px;
@@ -149,7 +149,7 @@
     
         .contact__form > button {
           padding: 10px;
-          background-color: rgb(216, 188, 32);
+          background-color: #FF7F02;
           font-size: 15px;
           border-radius: 3px;
           color: black;
@@ -179,4 +179,5 @@
         width: 100%;
         padding: 1.125rem 2rem;
       }
+
       }

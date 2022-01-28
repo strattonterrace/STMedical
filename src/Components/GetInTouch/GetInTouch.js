@@ -35,7 +35,7 @@ function GetInTouch() {
                 <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                 <button
                   type="submit" >
-                  - Send Now -
+                  Send Now
                 </button>
               </form>
 
