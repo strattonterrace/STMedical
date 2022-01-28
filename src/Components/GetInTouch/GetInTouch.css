@@ -24,15 +24,7 @@
     font-weight: 400;
     letter-spacing: .1em;
     }
-
-    .contact{
-    background-color: white;
-    background-Position: center;
-    background-Size: cover;
-    background-Repeat: no-repeat;
-    
-    }
-   
+ 
     .contact__form {
       filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
       display: flex;
@@ -115,11 +107,61 @@
     font-weight: bold;
     }
    
+
+
+    @media (max-width:900px){
+      .GetInTouch__p{
+        font-size: 1.3em;
+        margin: 10px;
+        padding-bottom: 3%;
+        text-align: center;
+        color: #fff;
+        line-height: 2em;
+        font-weight: 400;
+        letter-spacing: .1em;
+        }
+        #contact-form-title {
+          text-align: center;
+          font-size: 40px;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          letter-spacing: .1em;
+          font-family: 'Lato', sans-serif;
+          }
+          .contact__form {
+            margin-top: 30px;
+            justify-content: center;
+            width: 80%;
+            margin-bottom: 80px;
+            padding-bottom: 40px;
+      
+          }
+
+    }
         
       @media (max-width:500px){
+
+        .GetInTouch__p{
+          font-size: 1.3em;
+          margin: 10px;
+          padding-bottom: 3%;
+          text-align: center;
+          color: #fff;
+          line-height: 2em;
+          font-weight: 400;
+          letter-spacing: .1em;
+          }
+          #contact-form-title {
+            text-align: center;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            letter-spacing: .1em;
+            font-family: 'Lato', sans-serif;
+            }
     
         .contact__form {
-          margin-top: 60px;
+          margin-top: 30px;
           justify-content: center;
           width: 100%;
           margin-bottom: 80px;

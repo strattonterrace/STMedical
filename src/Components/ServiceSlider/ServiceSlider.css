@@ -10,7 +10,6 @@
     flex-direction: row;
     padding:0;
     margin:0;
-
 }
 .service-slide {
     height: 350px;
@@ -82,3 +81,9 @@ a.ServiceSlider__button:hover{
      font-weight: bold;
      }
      
+
+     @media (max-width:900px){
+     
+    
+    
+    }

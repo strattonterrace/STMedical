@@ -154,3 +154,32 @@
     margin: 5% 1% 5% 1%;
     max-width:75%;
   }
+
+
+  @media (max-width:900px){
+
+    .Home__row__3{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 5% 1% 5% 1%;
+      max-width:100%;
+    }
+
+  }
+
+
+  @media (max-width:500px){
+
+    .Home__row__3{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 5% 1% 5% 1%;
+      max-width:100%;
+    }
+
+
+
+
+
+
+  }
