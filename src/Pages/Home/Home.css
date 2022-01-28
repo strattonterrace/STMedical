@@ -170,10 +170,10 @@
 
       .Home__h1{
         display: inline-block;
-        padding-top: 25px;
-        padding-left: 0%;
+        padding-top: 35px;
         padding-right:0%;
-        text-align: center;
+        text-align: center !important;
+        align-items: center;
         font-size: 30px;
         color: rgb(255, 255, 255);
         letter-spacing: .1em;
