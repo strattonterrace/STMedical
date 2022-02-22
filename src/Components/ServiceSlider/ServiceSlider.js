@@ -16,6 +16,7 @@ function ServiceSlider() {
                     <div className="service-text">
                       More than half your traffic is mobile. We design and build custom websites that connect with your future clients on any screen.
                       </div> 
+                      <br></br>
                       <a href="/" className="ServiceSlider__button">
                         Learn More
                       </a>
@@ -42,6 +43,7 @@ function ServiceSlider() {
                              </h2>
                              <div className="service-text">You want to maximize your advertising dollar. We ensure a lower cost of acquisition and higher conversion rate than any other agency.
                              </div> 
+                             <br></br>
                              <a href="/" className="ServiceSlider__button" tabindex="0">Learn More
                              </a>
                              </div>
@@ -54,6 +56,7 @@ function ServiceSlider() {
                                    </h2>
                                    <div className="service-text">You want to maximize your advertising dollar. We ensure a lower cost of acquisition and higher conversion rate than any other agency.
                                    </div> 
+                                   <br></br>
                                    <a href="/" className="ServiceSlider__button" >Learn More
                                    </a>
                                    </div>

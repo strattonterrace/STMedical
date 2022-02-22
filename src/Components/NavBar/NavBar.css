@@ -14,7 +14,6 @@ body {
   margin-left: 50px;
   padding: 15px;
   font-size:32px;
-  /* font-family: 'Dancing Script', cursive; */
   font-family: 'Lato', sans-serif;
   color: #fafafa;
   text-decoration: none;
@@ -25,15 +24,15 @@ body {
 }
 
 .navbar-logo:hover{
-color: #8b7979;
+color: #fafafa;
 -webkit-transition: all 1.7s;
 -moz-transition: all 1.7s;
 -ms-transition: all 1.7s;
 transition: all 1.7s;
 text-shadow:
       0 0 7px #FF7F02,
-      0 0 10px #fff,
-      0 0 21px #fff,
+      0 0 10px #fafafa,
+      0 0 21px #fafafa,
       0 0 42px rgb(255, 0, 0),
       0 0 102px #0fa,
       0 0 151px #0fa;
@@ -42,7 +41,7 @@ text-shadow:
 
 
 .navbar-mainbg {
-  /* background-color: -moz-linear-gradient(#FF7F02 10%, #FF9917 90%); */
+  background-color: -moz-linear-gradient(#FF7F02 10%, #FF9917 90%);
   background-color: #FF7F02;
   padding: 0px;
 }
@@ -74,7 +73,6 @@ text-shadow:
 }
 #navbarSupportedContent > ul > li.active > a {
   color: #FF7F02;
-  /* height: 35px; */
   background-color: transparent;
   transition: all 1.7s;
 }
@@ -104,7 +102,7 @@ text-shadow:
   left: 0px;
   transition-duration: 0.6s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  background-color: #fff;
+  background-color: #fafafa;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin-top: 20px;
@@ -114,7 +112,7 @@ text-shadow:
   position: absolute;
   width: 25px;
   height: 25px;
-  background-color: #fff;
+  background-color: #fafafa;
   bottom: 0px;
 }
 .hori-selector .right {
@@ -171,7 +169,6 @@ text-shadow:
     left: -25px;
   }
 }
-
 
 
 @media (max-width: 500px){
