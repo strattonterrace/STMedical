@@ -30,6 +30,7 @@ function ServiceSlider() {
                     </h2>
                     <div className="service-text">Google rewards authority. We research your topics and consult with you to write 1,500+ word articles which build your search rank to increase organic leads.
                     </div>
+                    <br></br>
                      <a href="/" className="ServiceSlider__button">
                        Learn More
                        </a>

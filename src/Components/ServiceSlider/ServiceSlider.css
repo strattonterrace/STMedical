@@ -12,12 +12,12 @@
     margin:0;
 }
 .service-slide {
-    height: 350px;
+    height: 500px;
     cursor: pointer;
 }
 
 .service-box {
-    height: 340px;
+    height: 440px;
     width: 400px;
     border: 2px solid #f2f2f2;
     padding: 40px;
@@ -98,13 +98,10 @@ a.ServiceSlider__button:hover{
             box-shadow: 0 4px 6px 0 rgb(0 0 0 / 20%);
             margin: 5px 10px 10px 10px;
         }
-    
-    
     }
 
 
     @media (max-width:500px){
-     
     .service-box {
     height: 340px;
     width: 400px;
