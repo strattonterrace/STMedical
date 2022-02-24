@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import { Row, Col } from 'reactstrap';
-import website from '../../Assets/Images/website.png'
+import website from '../../Assets/Images/website.jpg'
 import about from '../../Assets/Images/about.png'
 
 
@@ -33,25 +33,31 @@ const About = () => {
           </Col>
           <Col id="About__R2__col2" xl="6">
           <div>
-            <h5 className="About__h5"> <strong>Education</strong>
+            <h5 className="About__h5"> <strong>Our Values</strong>
             </h5>
-            <h3 className="About__h3">
-            Microblading 1:1 Training With “LA Microbrow”</h3>
               <p id="About__p__1"> 
-              11.09.2020</p>
+              We believe that without trust, you have nothing.
+              </p>
                 </div>
-                <h3 className="About__h3">
-                Powder Brows 1:1 Training With “LA Microbrow”</h3>
               <p id="About__p__1"> 
-              03.15.2021</p>
-                <h3 className="About__h3">
-                Lip Blush Online Training With Shay Danielle Academy</h3>
+              We believe that details matter.
+              </p>
               <p id="About__p__1"> 
-              08.20.2021</p>
-                <h3 className="About__h3">
-                Lip Blush 1:1 Training With “LA Microbrow”</h3>
+              We believe in the simple, not the complex.
+              </p>
               <p id="About__p__1"> 
-              10.27.2021</p>
+              We believe in focus.
+              </p>
+              <p id="About__p__1"> 
+              We believe whatever we choose to do on Earth, we put our all into.
+              </p>
+              <p id="About__p__1"> 
+              We believe in hiring people that have knowledge in many areas, which allows us to innovate in a way that others cannot.
+              </p>
+              <p id="About__p__1"> 
+              We do not settle for anything less than excellence, and we have the self-honesty to admit when we’re wrong and the courage to change.
+              </p>
+
               <a href='https://calendly.com/browsjungle/5hours?month=2022-02' target='_blank'>     
               <button id='About__row1__button' href='/'>
               Book Now</button>
