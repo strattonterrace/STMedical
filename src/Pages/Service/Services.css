@@ -1,14 +1,9 @@
   .Services {
-    
     background-Position: center;
     background-Size: cover;
     background-Repeat: no-repeat;
   }
   
-  .Services__background {
-    width: 100%;
-    padding-bottom: 100px;
-  }
   
   .Services-container {
     margin: 0;
@@ -23,20 +18,8 @@
   }
   
   .Services__row {
-    padding-top: 0!important;
-    padding-bottom: 0!important;
-  }
-  
-  .Services-container>h1 {
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .Typewriter {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   
   .clients {
@@ -61,7 +44,7 @@
   }
   
   .clientBtn .details {
-    padding: 20px;
+    padding: 0px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -72,60 +55,70 @@
     color: black;
     opacity: 0;
   }
-  
-  .btn-secondary {
-    color: #fff;
-    background-color: #fafafa;
-    border-color: #6c757d;
-  }
-  
-  .btn-secondary:hover{
-    color: #fff;
-    background-color: #fafafa;
-    border-color: #6c757d;
-    -webkit-transition: .3s ease-in-out;
-    transition: 0.5s ease-in-out;
-  }
-  
-  
-  .Services__client__name{
-  padding-top: 10%;
-  font-weight: bold;
-  }
-  
-  .Services__client__industry{
-    font-weight: bold;
-    padding-top: 10%;
-  }
-  
-  
-  .Services__client__description{
-    padding: 10%;
-  }
-  
   .details:hover {
-    background: #ffffff;
+    background: #FF7F02;
     color: black;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 5px;
     -webkit-transition: .3s ease-in-out;
   transition: 0.5s ease-in-out;
   
   }
+
+  .Services__name{
+      width: 100%;
+      height: 59px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: none;
+      color: #fff;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 8px #000;
+      letter-spacing: .2em;
+      font-weight: 400;
+      font-size: 1.6em;
+      z-index: 3;
+      line-height: 1.2em;
+      padding: 0 20px;
+      text-align: center;
+  }
+  
+ 
   
   @media screen and (max-width: 960px) {
-    .Services-container>h1 {
-      font-size: 60px;
-      margin-top: -150px;
-    }
+
   
     .Services__client__description{
       padding: 0%;
-  
     }
     .details{
       margin-bottom: 41px;
     }
+    .Services__name{
+      width: 100%;
+      height: 59px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: none;
+      color: #fff;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 8px #000;
+      letter-spacing: .2em;
+      font-weight: 300;
+      font-size: 1em;
+      z-index: 3;
+      line-height: 1.2em;
+      padding: 0 20px;
+      text-align: center;
+  }
   }
   
   @media screen and (max-width: 768px) {
@@ -143,4 +136,26 @@
     .details{
       margin-bottom: 41px;
     }
+
+    .Services__name{
+      width: 100%;
+      height: 59px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: none;
+      color: #fff;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 8px #000;
+      letter-spacing: .2em;
+      font-weight: 200;
+      font-size: 0.6em;
+      z-index: 3;
+      line-height: 1.2em;
+      padding: 0 20px;
+      text-align: center;
+  }
   }
