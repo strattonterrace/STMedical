@@ -12,6 +12,14 @@ import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 import Services from './pages/Service/Services';
 import Testimonial from './pages/Testimonial/Testimonial';
+import EmailMarketing from './pages/EmailMarketing/EmailMarketing';
+import MedicalWebsiteDesign from './pages/MedicalWebsiteDesign/MedicalWebsiteDesign';
+import GoogleMyBusinessPage from './pages/GoogleMyBusinessPage/GoogleMyBusinessPage';
+import MedicalWebsiteHosting from './pages/MedicalWebsiteHosting/MedicalWebsiteHosting';
+import Orm from './pages/Orm/Orm';
+import MedicalAdvertising from './pages/MedicalAdvertising/MedicalAdvertising';
+import MedicalContentWriting from './pages/MedicalContentWriting/MedicalContentWriting';
+import Seo from './pages/Seo/Seo';
 
 
 const App = () => {
@@ -35,6 +43,30 @@ const App = () => {
         </Route>
         <Route path="/contact" exact>
           <Contact/>
+        </Route>
+        <Route path="/email-marketing" exact>
+          <EmailMarketing/>
+        </Route>
+        <Route path="/medical-website-design" exact>
+          <MedicalWebsiteDesign/>
+        </Route>
+        <Route path="/google-my-business-page" exact>
+          <GoogleMyBusinessPage/>
+        </Route>
+        <Route path="/medical-website-hosting" exact>
+          <MedicalWebsiteHosting/>
+        </Route>
+        <Route path="/orm" exact>
+          <Orm/>
+        </Route>
+        <Route path="/medical-advertising" exact>
+          <MedicalAdvertising/>
+        </Route>
+        <Route path="/medical-content-writing" exact>
+          <MedicalContentWriting/>
+        </Route>
+        <Route path="/seo" exact>
+          <Seo/>
         </Route>
         <Redirect to="/" />
       </Switch>

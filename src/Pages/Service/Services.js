@@ -13,48 +13,48 @@ import Hosting from '../../Assets/Services/img9.jpeg'
 
 
 function Services() {
-  const [clientsState] = useState({
-    clients: [
+  const [ServiceState] = useState({
+    Service: [
       {
         name: 'EMAIL MARKETING',
-        site: 'https://www.clipperaviation.com//',
+        site: '/email-marketing',
         image: Email
       },
       {
         name: 'Medical Website Design',
-        site: '',
+        site: '/medical-website-design',
         image: WebDesign
       },
       {
         name: 'GOOGLE MY BUSINESS PAGE',
-        site: 'https://strattonterraceinf.editorx.io/coop',
+        site: '/google-my-business-page',
         image: GoogleMBusiness
       },
     
       {
         name: 'MEDICAL WEBSITE HOSTING',
-        site: 'https://www.novaxs.co/',
+        site: '/medical-website-hosting',
         image: Hosting
       },
       {
         name: 'ONLINE REPUTATION MANAGEMENT',
-        site: 'https://www.adcwindowwashers.com/',
+        site: '/orm',
         image: ORM
       },
     
       {
         name: 'MEDICAL ADVERTISING',
-        site: 'https://hraye17.wixsite.com/website',
+        site: '/medical-advertising',
         image: MedicalAds
       },
       {
         name: 'MEDICAL CONTENT WRITING',
-        site: 'https://www.offroaderparts.com//',
+        site: '/medical-content-writing',
         image: ContentWriting
       },   
       {
         name: 'MEDICAL SEO',
-        site: 'https://www.coastautomotiveperformance.com/',
+        site: '/seo',
         image: MedicalSEO
       },
     ]
@@ -62,10 +62,10 @@ function Services() {
 
   return (
     <div className='Services'>
-            <div className='clients'>
+            <div className='Service'>
               <Row className='Services__row'>
                 {
-                  clientsState.clients.map(client => (
+                  ServiceState.Service.map(client => (
                     <Col
                       className='client'
                       xl='3'
@@ -74,9 +74,7 @@ function Services() {
                     >
                       <Button
                         className='clientBtn'
-                        href={client.site}
-                        target='_blank'
-                      >
+                        href={client.site}>
                         <img className='clientImg' src={client.image} alt={client.name} />
                         <div className='details'>
                           <h3 className='Services__name'>
